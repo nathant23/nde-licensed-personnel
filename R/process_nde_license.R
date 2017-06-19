@@ -2,7 +2,7 @@ library(pdftools)
 library(stringr)
 library(dplyr)
 
-process_nde_licence <- function(file_name, page_start, page_end){
+process_nde_license <- function(file_name, page_start, page_end){
   
   data_set <- pdf_text(file_name)
   
